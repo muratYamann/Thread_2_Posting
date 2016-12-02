@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f099"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/lblTopCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:text="Some important data is been collected now. Patience please..."
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:id="@+id/myBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtBox1"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnDoSomething"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:padding="4dp"
+        android:text="Do Something" />
+</LinearLayout>
